@@ -1,0 +1,57 @@
+/* These (p, h1, form, style, table, etc) are selectors */
+h1{color: aqua;}
+p{color: aliceblue;}
+table{color: wheat;}
+form{color: cyan;}
+style{color: blue;}
+h2{color: azure;}
+th{color: cornflowerblue;}
+tr{color: cornflowerblue;}
+td{color: deepskyblue;}
+dd{color: aliceblue;}
+
+/* These are id selectors */
+#Taran{
+text-align: center;
+color: chocolate;
+padding: 23px;
+}
+
+#id1{
+    color: lightblue;
+    text-align: left;
+}
+
+/* These are class selectors */
+.class1{
+    color: red;
+    text-align: center;
+}
+
+/* These are Class Selectors */
+
+h1.Class2{
+    color: blue;
+    font-size: medium;
+    background-color: chocolate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
