@@ -1,0 +1,31 @@
+<!--subscribe form-->
+                <div class="col-md-12 bg-secondary p-3 "> 
+                    <h2 class="text-center text-white text-bold fs-1"><strong>Subscribe My Newsletter</strong></h2>
+                    <p class="text-center text-white fs-6 fw-semibold">Subscribe and get my latest article in your inbox</p>
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Your email" aria-label="email" aria-describedby="button-addon2">
+                      <button class="btn btn-outline-secondary bg-primary text-white" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div><br>
+                <!--footer-->
+                <div class="col-md-12 bg-secondary p-5 ">
+                    <div class="button justify-content-center d-flex flex-row hover-effect">
+                        <button type="button" class="btn btn-md" style="background-color: #6c757d; color:white"><i
+                                class="fa-brands fa-square-facebook" ></i></button>
+                        <button type="button" class="btn btn-md" style="background-color: #6c757d; color:white"><i
+                                class="fa-brands fa-square-twitter"></i></button>
+                        <button type="button" class="btn btn-md" style="background-color: #6c757d; color:white"><i
+                                class="fa-brands fa-linkedin"></i></button>
+                        <button type="button" class="btn btn-md" style="background-color: #6c757d; color:white"><i
+                                class="fa-brands fa-square-instagram"></i></button>
+                    </div>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center d-flex flex-row hover-effect">
+                          <li class="breadcrumb-item"><a class="text-white fw-semibold" href="#">Privacy</a></li>
+                          <li class="breadcrumb-item"><a class="text-white fw-semibold" href="#">Terms</a></li>
+                          <li class="breadcrumb-item"><a class="text-white fw-semibold" href="#">FAQs</a></li>
+                          <li class="breadcrumb-item"><a class="text-white fw-semibold" href="#">Help</a></li>
+                        </ol>
+                    </nav>
+                    <p class="text-center fw-semibold">@All Rights Reserved. Designed by <a href="#" style="color:#00B87B">HTML Codex</a></p>
+                </div>

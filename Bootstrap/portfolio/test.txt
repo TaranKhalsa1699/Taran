@@ -1,0 +1,103 @@
+<div class="container mt-0">
+                        <h2 class="fw-bold text-white bg-transparent">Testimonial</h2>
+                    </div>
+                        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner p-2">
+                                <div class="carousel-item active">
+                                    <div class="p-4 bg-transparent ">
+                                        <i class="fa-solid fa-quote-left fa-2xl p-4" style="color: #63E6BE;"></i>
+                                        <p class="text-white fw-semibold">Diam rebum sea stet rebum ea. Et kasd amet et accusam elitr voluptua. Tempor dolore sit et accusam ipsum erat duo.</p>
+                                        <div class="d-flex justify-content-left align-items-center p-4">
+                                            <img src="/images/card1.jpg" class="square" style="width: 4rem; height: 4rem;" alt="Client">
+                                            <div class="ps-3">
+                                                <h5 class="mb-0" style="color: #00B87B;">Client Name</h5>
+                                                <p class="mb-0 text-white"><i>Profession</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="p-4 bg-transparent">
+                                        <i class="fa-solid fa-quote-left fa-2xl p-4" style="color: #63E6BE;"></i>
+                                        <p class="text-white fw-semibold">Diam rebum sea stet rebum ea. Et kasd amet et accusam elitr voluptua. Tempor dolore sit et accusam ipsum erat duo.</p>
+                                        <div class="d-flex justify-content-left align-items-center p-4">
+                                            <img src="/images/card2.jpg" class="square" style="width: 4rem; height: 4rem;" alt="Client">
+                                            <div class="ps-3">
+                                                <h5 class="mb-0" style="color: #00B87B;">Client Name</h5>
+                                                <p class="mb-0 text-white"><i>Profession</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="p-4 bg-transparent">
+                                        <i class="fa-solid fa-quote-left fa-2xl p-4" style="color: #63E6BE;"></i>
+                                        <p class="text-white fw-semibold">Diam rebum sea stet rebum ea. Et kasd amet et accusam elitr voluptua. Tempor dolore sit et accusam ipsum erat duo.</p>
+                                        <div class="d-flex justify-content-left align-items-center p-4">
+                                            <img src="/images/card3.jpg" class="square" style="width: 4rem; height: 4rem;" alt="Client">
+                                            <div class="ps-3">
+                                                <h5 class="mb-0" style="color: #00B87B;">Client Name</h5>
+                                                <p class="mb-0 text-white"><i>Profession</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="container mt-0">
+                        <h2 class="fw-bold text-white bg-transparent">Testimonial</h2>
+                    </div>
+                        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner p-2">
+                                <div class="carousel-item active">
+                                    <div class="p-4 bg-transparent ">
+                                        <i class="fa-solid fa-quote-left fa-2xl p-4" style="color: #63E6BE;"></i>
+                                        <p class="text-white fw-semibold">Diam rebum sea stet rebum ea. Et kasd amet et accusam elitr voluptua. Tempor dolore sit et accusam ipsum erat duo.</p>
+                                        <div class="d-flex justify-content-left align-items-center p-4">
+                                            <img src="/images/card1.jpg" class="square" style="width: 4rem; height: 4rem;" alt="Client">
+                                            <div class="ps-3">
+                                                <h5 class="mb-0" style="color: #00B87B;">Client Name</h5>
+                                                <p class="mb-0 text-white"><i>Profession</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="p-4 bg-transparent">
+                                        <i class="fa-solid fa-quote-left fa-2xl p-4" style="color: #63E6BE;"></i>
+                                        <p class="text-white fw-semibold">Diam rebum sea stet rebum ea. Et kasd amet et accusam elitr voluptua. Tempor dolore sit et accusam ipsum erat duo.</p>
+                                        <div class="d-flex justify-content-left align-items-center p-4">
+                                            <img src="/images/card2.jpg" class="square" style="width: 4rem; height: 4rem;" alt="Client">
+                                            <div class="ps-3">
+                                                <h5 class="mb-0" style="color: #00B87B;">Client Name</h5>
+                                                <p class="mb-0 text-white"><i>Profession</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="p-4 bg-transparent">
+                                        <i class="fa-solid fa-quote-left fa-2xl p-4" style="color: #63E6BE;"></i>
+                                        <p class="text-white fw-semibold">Diam rebum sea stet rebum ea. Et kasd amet et accusam elitr voluptua. Tempor dolore sit et accusam ipsum erat duo.</p>
+                                        <div class="d-flex justify-content-left align-items-center p-4">
+                                            <img src="/images/card3.jpg" class="square" style="width: 4rem; height: 4rem;" alt="Client">
+                                            <div class="ps-3">
+                                                <h5 class="mb-0" style="color: #00B87B;">Client Name</h5>
+                                                <p class="mb-0 text-white"><i>Profession</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>

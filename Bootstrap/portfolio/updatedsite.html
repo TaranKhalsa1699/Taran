@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessi Kaur - Web Designer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/e0ff2a67e6.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #314355;
+            color: white;
+            /* Set default text color for body */
+        }
+
+        .progress-wrapper {
+            position: relative;
+            margin-bottom: 30px;
+            /* Added margin for spacing */
+        }
+
+        hr {
+            color: white;
+            opacity: 0.25;
+            /* Adjusted opacity for subtlety */
+        }
+
+        /* Keep other custom styles as needed */
+        *,
+        ::before,
+        ::after {
+            box-sizing: border-box;
+        }
+
+        .service-item {
+            text-align: center;
+            padding: 30px;
+            background-color: #314355;
+            /* Ensure background matches body */
+            transition: transform 0.3s ease;
+            /* Added subtle hover effect */
+            height: 100%;
+            /* Make cards in a row equal height */
+        }
+
+        .service-item:hover {
+            transform: translateY(-5px);
+            /* Lift card slightly on hover */
+        }
+
+        .service-item i.btn-hover {
+            /* Target the icon specifically */
+            background-color: green;
+            color: white;
+            padding: 15px;
+            /* Ensure padding for visual */
+            border-radius: 50%;
+            /* Make it circular */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .service-item:hover i.btn-hover {
+            background-color: #00B87B;
+            /* Use theme color on hover */
+        }
+
+
+        .progress-percentage {
+            position: absolute;
+            top: -25px;
+            /* Adjust as needed */
+            right: 0;
+            font-weight: bold;
+            color: white;
+            /* Ensure percentage is visible */
+        }
+
+        /* Custom highlight color for links/buttons if needed */
+        .highlight-color {
+            color: #00B87B;
+        }
+
+        .btn-highlight {
+            background-color: #00B87B;
+            color: white;
+            border: none;
+        }
+
+        .btn-highlight:hover {
+            background-color: #00a068;
+            /* Darker shade on hover */
+            color: white;
+        }
+
+        /* Ensure links in sidebar buttons are white */
+        .sidebar-btn-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .sidebar-btn-link:hover {
+            color: #eeeeee;
+            /* Slightly lighter on hover */
+        }
+
+        /* Style portfolio filter buttons */
+        #portfolio-flters .btn {
+            margin: 0 5px 10px 5px;
+        }
+
+        /* Style form inputs */
+        .form-control,
+        .form-select {
+            background-color: rgba(255, 255, 255, 0.1);
+            /* Slightly transparent white */
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .form-control::placeholder {
+            /* Standard placeholder */
+            color: rgba(255, 255, 255, 0.7);
+            opacity: 1;
+        }
+
+        .form-control:-ms-input-placeholder {
+            /* IE */
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .form-control::-ms-input-placeholder {
+            /* Edge */
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .form-control:focus,
+        .form-select:focus {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: #00B87B;
+            color: white;
+            box-shadow: 0 0 0 0.25rem rgba(0, 184, 123, 0.25);
+            /* Focus shadow */
+        }
+
+        .form-floating>label {
+            color: rgba(255, 255, 255, 0.7);
+            /* Style floating labels */
+        }
+
+        .form-control:-webkit-autofill,
+        .form-control:-webkit-autofill:hover,
+        .form-control:-webkit-autofill:focus,
+        .form-control:-webkit-autofill:active {
+            -webkit-text-fill-color: white;
+            /* Ensure autofill text is white */
+            -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.1) inset !important;
+            /* Keep background consistent */
+            transition: background-color 5000s ease-in-out 0s;
+            /* Prevent yellow background */
+        }
+
+        /* Footer link styling */
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #00B87B;
+        }
+
+        .footer-links .border-end {
+            border-color: rgba(255, 255, 255, 0.3) !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <aside class="col-lg-3 col-md-4 shadow-lg sticky-lg-top vh-100 p-0" style="background-color:#314355;">
+                <div class="text-center p-4">
+                    <img src="/images/profile.jpg" class="img-fluid rounded-circle mb-3"
+                        alt="Jessi Kaur profile picture" style="max-width: 150px; border: 3px solid #00B87B;">
+                    <h5 class="card-title text-center fw-bold highlight-color">Jassa</h5>
+                    <p class="text-white fw-normal text-center pb-3">Web Designer</p>
+
+                    <div class="d-flex justify-content-center mb-4">
+                        <a href="#" class="btn btn-outline-light btn-square mx-2" aria-label="Facebook Profile">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-square mx-2" aria-label="LinkedIn Profile">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-square mx-2" aria-label="WhatsApp Contact">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-square mx-2" aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="position-absolute bottom-0 w-100">
+                    <div class="d-flex flex-column align-items-center justify-content-center border-top pt-4 pb-4"
+                        style="border-color: rgba(255, 255, 255, 0.2) !important;">
+                        <a href="#" class="btn btn-highlight mb-2 w-75 sidebar-btn-link">Download CV</a>
+                        <a href="#contact" class="btn btn-secondary w-75 sidebar-btn-link">Contact Me</a>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="col-lg-9 col-md-8 p-4 p-lg-5" style="overflow-y: auto; height: 100vh;">
+                <section id="about" class="mb-5">
+                    <h2 class="fw-bold text-white mb-3">About Me</h2>
+                    <hr class="mb-4">
+
+                    <p class="fw-normal text-white mb-4">
+                        Highly motivated and results-oriented Web Designer with 10 years of experience crafting engaging
+                        and user-friendly digital experiences. Proficient in front-end technologies and passionate about
+                        clean code and modern design principles. Seeking challenging projects to leverage skills in
+                        creating impactful websites and applications.
+                    </p>
+
+                    <div class="row mb-4">
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><strong class="highlight-color">Name: </strong>Jessi Kaur</li>
+                                <li class="mb-2"><strong class="highlight-color">Degree: </strong>Master of Web Design
+                                </li>
+                                <li class="mb-2"><strong class="highlight-color">Phone: </strong>+012 345 6789</li>
+                                <li class="mb-2"><strong class="highlight-color">Address: </strong>123 Design Street,
+                                    New York, USA</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><strong class="highlight-color">Birthday: </strong> 1 April 1990</li>
+                                <li class="mb-2"><strong class="highlight-color">Experience: </strong>10 Years</li>
+                                <li class="mb-2"><strong class="highlight-color">Email: </strong>jessi.kaur@example.com
+                                </li>
+                                <li class="mb-2"><strong class="highlight-color">Freelance: </strong>Available</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <div class="shadow-lg d-flex p-4 align-items-center"
+                                style="background-color: rgba(255, 255, 255, 0.05);">
+                                <h1 class="flex-shrink-0 display-5 mb-0 highlight-color me-3">10</h1>
+                                <div>
+                                    <p class="mb-0 text-white-50">Years of</p>
+                                    <h5 class="mb-0 text-white">Experience</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="shadow-lg d-flex p-4 align-items-center"
+                                style="background-color: rgba(255, 255, 255, 0.05);">
+                                <h1 class="flex-shrink-0 display-5 mb-0 highlight-color me-3">100+</h1>
+                                <div>
+                                    <p class="mb-0 text-white-50">Happy</p>
+                                    <h5 class="mb-0 text-white">Clients</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="shadow-lg d-flex p-4 align-items-center"
+                                style="background-color: rgba(255, 255, 255, 0.05);">
+                                <h1 class="flex-shrink-0 display-5 mb-0 highlight-color me-3">200+</h1>
+                                <div>
+                                    <p class="mb-0 text-white-50">Completed</p>
+                                    <h5 class="mb-0 text-white">Projects</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+
+                <section id="skills" class="py-5">
+                    <h3 class="fw-bold text-white mb-3">Skills</h3>
+                    <hr class="mb-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="text-white">HTML</h5>
+                            <div class="progress-wrapper">
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar" role="progressbar"
+                                        style="width: 95%; background-color: #00B87B;" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="progress-percentage">95%</div>
+                            </div>
+                            <h5 class="text-white">CSS (incl. Bootstrap)</h5>
+                            <div class="progress-wrapper">
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar" role="progressbar"
+                                        style="width: 90%; background-color: #00B87B;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="progress-percentage">90%</div>
+                            </div>
+                            <h5 class="text-white">JavaScript</h5>
+                            <div class="progress-wrapper">
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar" role="progressbar"
+                                        style="width: 75%; background-color: #00B87B;" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="progress-percentage">75%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-white">PHP</h5>
+                            <div class="progress-wrapper">
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar" role="progressbar"
+                                        style="width: 60%; background-color: #00B87B;" aria-valuenow="60"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="progress-percentage">60%</div>
+                            </div>
+                            <h5 class="text-white">Python</h5>
+                            <div class="progress-wrapper">
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar" role="progressbar"
+                                        style="width: 70%; background-color: #00B87B;" aria-valuenow="70"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="progress-percentage">70%</div>
+                            </div>
+                            <h5 class="text-white">UI/UX Design Principles</h5>
+                            <div class="progress-wrapper">
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar" role="progressbar"
+                                        style="width: 85%; background-color: #00B87B;" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="progress-percentage">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+
+                <section id="experience" class="py-5">
+                    <h3 class="text-white mb-3">Experience</h3>
+                    <hr class="mb-5">
+                    <div class="border-start border-2 border-light pt-2 ps-5"
+                        style="border-color: rgba(255, 255, 255, 0.3) !important;">
+                        <div class="position-relative mb-4">
+                            <span class="fa-solid fa-briefcase fs-4 text-light position-absolute"
+                                style="top: 5px; left: -60px; color: #00B87B !important;"></span>
+                            <h5 class="mb-1 text-white">Senior Web Designer</h5>
+                            <p class="mb-2 text-white-50">Innovate Solutions Inc. | <small>2020 - Present</small></p>
+                            <p class="text-white">Led design projects for key clients, improving user engagement metrics
+                                by 25%. Mentored junior designers and contributed to UI component library development.
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <span class="fa-solid fa-briefcase fs-4 text-light position-absolute"
+                                style="top: 5px; left: -60px; color: #00B87B !important;"></span>
+                            <h5 class="mb-1 text-white">Web Designer</h5>
+                            <p class="mb-2 text-white-50">Creative Agency Co. | <small>2017 - 2020</small></p>
+                            <p class="text-white">Developed responsive websites and landing pages using HTML, CSS, and
+                                JavaScript. Collaborated with marketing teams to optimize designs for conversion.</p>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+
+                <section id="services" class="py-5">
+                    <h1 class="text-white mb-3">Services</h1>
+                    <hr class="mb-5">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-lg service-item p-4"> <i
+                                    class="fa fa-2x fa-laptop-code mx-auto mb-4 btn-hover"></i>
+                                <h5 class="mb-2 text-white">Web Design</h5>
+                                <p class="mb-0 text-white-50">Creating visually appealing and functional website designs
+                                    focused on user experience and brand identity.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-lg service-item p-4">
+                                <i class="fab fa-2x fa-android mx-auto mb-4 btn-hover"></i>
+                                <h5 class="mb-2 text-white">Web Development</h5>
+                                <p class="mb-0 text-white-50">Building responsive, high-performance websites using
+                                    modern front-end and back-end technologies.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-lg service-item p-4">
+                                <i class="fa fa-2x fa-search mx-auto mb-4 btn-hover"></i>
+                                <h5 class="mb-2 text-white">SEO Optimization</h5>
+                                <p class="mb-0 text-white-50">Implementing on-page and technical SEO best practices to
+                                    improve search engine visibility and ranking.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-lg service-item p-4">
+                                <i class="fa fa-2x fa-edit mx-auto mb-4 btn-hover"></i>
+                                <h5 class="mb-2 text-white">Website Maintenance</h5>
+                                <p class="mb-0 text-white-50">Providing ongoing support, updates, and maintenance to
+                                    ensure website security and performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+
+
+                <section id="portfolio" class="py-5">
+                    <h1 class="text-white mb-3">Portfolio</h1>
+                    <hr class="mb-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="text-center mb-4">
+                                <ul class="list-inline" id="portfolio-flters">
+                                    <li class="btn btn-secondary active" data-filter="*"><i
+                                            class="fa fa-star me-2"></i>All</li>
+                                    <li class="btn btn-secondary" data-filter=".design"><i
+                                            class="fa fa-laptop-code me-2"></i>Design</li>
+                                    <li class="btn btn-secondary" data-filter=".development"><i
+                                            class="fa fa-mobile-alt me-2"></i>Development</li>
+                                </ul>
+                            </div>
+
+                            <div class="row portfolio-container g-4">
+                                <div class="col-md-6 portfolio-item design">
+                                    <div class="position-relative overflow-hidden shadow-lg">
+                                        <img class="img-fluid w-100" src="images/portfolio-1-placeholder.jpg"
+                                            alt="Portfolio project 1 description">
+                                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                            <a href="images/portfolio-1-placeholder.jpg" data-lightbox="portfolio"
+                                                class="btn btn-light btn-sm m-1" title="Project Title 1"><i
+                                                    class="fa fa-eye"></i></a>
+                                            <a href="#" class="btn btn-light btn-sm m-1" title="Project Link"><i
+                                                    class="fa fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 portfolio-item development">
+                                    <div class="position-relative overflow-hidden shadow-lg">
+                                        <img class="img-fluid w-100" src="images/portfolio-2-placeholder.jpg"
+                                            alt="Portfolio project 2 description">
+                                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                            <a href="images/portfolio-2-placeholder.jpg" data-lightbox="portfolio"
+                                                class="btn btn-light btn-sm m-1" title="Project Title 2"><i
+                                                    class="fa fa-eye"></i></a>
+                                            <a href="#" class="btn btn-light btn-sm m-1" title="Project Link"><i
+                                                    class="fa fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+
+                <section id="testimonials" class="py-5">
+                    <h1 class="text-white mb-3">Testimonials</h1>
+                    <hr class="mb-5">
+                    <div class="text-center text-white-50">
+                        (Testimonials section content goes here - e.g., client quotes, names, companies)
+                    </div>
+                </section>
+                <hr>
+
+
+                <section id="subscribe" class="py-5">
+                    <div class="p-4 p-md-5 shadow-lg text-center" style="background-color: rgba(0, 0, 0, 0.2);">
+                        <h2 class="text-white fs-1 mb-3"><strong>Subscribe My Newsletter</strong></h2>
+                        <p class="text-white-50 fs-6 fw-semibold mb-4">Subscribe to get my latest articles and updates
+                            in your inbox.</p>
+                        <form action="#" method="post">
+                            <div class="input-group mb-3 mx-auto" style="max-width: 600px;">
+                                <input type="email" class="form-control form-control-lg"
+                                    placeholder="Your email address" aria-label="Your email address"
+                                    aria-describedby="button-subscribe" required name="email">
+                                <button class="btn btn-highlight btn-lg" type="submit"
+                                    id="button-subscribe">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <hr>
+
+                <section id="contact" class="py-5">
+                    <h3 class="text-white mb-3">Contact Me</h3>
+                    <hr class="mb-4">
+
+                    <form class="row g-3" action="#" method="POST">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="firstName" name="firstName"
+                                    placeholder="First Name" required>
+                                <label for="firstName">First Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="lastName" name="lastName"
+                                    placeholder="Last Name" required>
+                                <label for="lastName">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Your Email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="subject" name="subject"
+                                    placeholder="Subject" required>
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    name="message" style="height: 150px" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-highlight btn-lg w-50 py-3" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </section>
+
+                <footer class="pt-5 mt-5 text-center text-white-50 footer-links">
+                    <hr class="mb-4">
+                    <div class="d-flex justify-content-center mb-4">
+                        <a class="btn btn-outline-light btn-square mx-1" href="#" aria-label="Twitter Profile"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-square mx-1" href="#" aria-label="Facebook Profile"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-square mx-1" href="#" aria-label="LinkedIn Profile"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-square mx-1" href="#" aria-label="Instagram Profile"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="d-flex justify-content-center mb-3">
+                        <a class="px-3 border-end" href="#">Privacy Policy</a>
+                        <a class="px-3 border-end" href="#">Terms of Use</a>
+                        <a class="px-3" href="#">Help</a>
+                    </div>
+                    <p class="m-0 pb-4">© <span id="current-year"></span> Jessi Kaur. All Rights Reserved. Designed by
+                        <a href="https://htmlcodex.com" target="_blank" rel="noopener noreferrer">HTML Codex</a>
+                        (Template customized)</p>
+                </footer>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Simple script to set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Add other custom JS here, e.g., for portfolio filtering or animations
+    </script>
+
+</body>
+
+</html>

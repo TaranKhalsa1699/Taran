@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES</title>
+    <link rel="icon" image="images/x-icon" href="/images/favicon copy.ico">
+    <style>
+        table, tr, th, td {
+            border-style:solid;
+            border-color: rgb(59, 43, 43);
+            padding: 1%;
+            margin: 40px ;
+            background-color: rgb(60, 200, 144);
+            width: 70cap;
+            text-align:left;
+            border-spacing: 10px;
+            
+        }
+        th {
+            padding-top: 1px; 
+            padding-bottom: 2px; 
+            padding-left: 3px;
+            padding-right: 40px;
+            background-color: rgb(204, 230, 253);
+
+        }
+
+         /* td {
+            border-style:groove ;
+            background-color: rgba(203, 59, 59, 0.976);
+            padding: 1%;
+
+         }*/
+        td:hover {background-color:white }
+        td{
+            background-color: cornflowerblue;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <colgroup>
+
+          <col  span="1" style="background-color:chocolate;" >
+          <col  span="2" style="background-color: blueviolet; visibility: collapse;" >
+
+        </colgroup>
+        <caption>Class Details</caption>
+        <tr>
+          <th rowspan="1">Name</th>
+          <td>Taran</td>
+          <td>Karan</td>
+          <td>Priya</td>
+        </tr>
+          <th>Class</th>
+          <td>1st</td>
+          <td>2nd</td>
+          <td>3rd</td>
+        </tr>
+        <tr>
+          <th colspan="1">Roll No</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+
+    </table>
+ 
+
+</body>
+</html>
